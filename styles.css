@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.icons-header {
+    color: black;
+    font-size: 25px;
+}
+.nav {
+    margin: 0px 80px;
+    align-items: center;
+}
+.top-header{
+    background-color: #EFE52D;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    gap: 700px;
+}
+.top-header p {
+    color: black;
+    font-family: Kanit;
+    
+}
+.header {
+    background-color: black;
+    overflow:hidden;
+}
+header .logo {
+    margin-right: 50px;
+    float: left;
+    margin-left: 120px;
+}
+.header nav {
+    float: right;
+    line-height: 100px;
+}
+.header nav a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    line-height: normal;
+    font-size: 15px;
+    font-family: Kanit;
+    text-transform: uppercase;
+}
+.header nav a:hover {
+    color: #EFE52D;
+}
+.button{
+    background-color:#EFE52D;
+    border-radius: 5px;
+    font-family: Kanit;
+    padding: 7px 15px;
+    text-transform: uppercase;
+    border: none;
+}
+.wrapper {
+    width: 100%;
+    margin: auto;
+    padding: 30px 200px 30px 200px
+}
+.slider {
+    width: 100%;
+}
+.font__h2{
+    font-family: Kanit;
+    text-align: center;
+    font-size: 23px;
+    text-transform: uppercase;
+    padding: 20px;
+}
+.font__parrafo{
+    font-family: Kanit;
+    text-align: center;
+    font-size: 15px;
+}
+.card__service {
+    background-color: #EFE52D;
+    border-radius: 5px;
+    padding: 20px 20px 20px 20px;
+    border: 2px solid;
+    text-align: center;
+    width: 250px;
+    box-shadow: 2px 2px 2px 1px black;
+}
+.card__service h2{
+    font-family: Kanit;
+    text-transform: uppercase;
+}
+.card__service p{
+    font-family: Kanit;
+}
+.flex-gap {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.client {
+    width: 230px;
+    display: block;
+    margin: 0px auto;
+}
+.form input {
+    width:180px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+    font-family: Kanit;
+}
+.butons {
+    background-color:#EFE52D !important;
+    border-radius: 5px !important;
+    font-family: Kanit !important;
+    padding: 7px 15px !important;
+    text-transform: uppercase !important;
+    border: none !important;
+}
+textarea {
+	width:100%;
+	height:200px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;			
+	margin:8px 0;
+	resize:none;
+	display:block;
+    font-family: Kanit;
+}
+.main-footer {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    padding: 80px;
+    gap: 120px;
+}
+#footer-widgets {
+    padding: 6% 0 0 0;
+}
+.footer-widget {
+    color: #EFE52D;
+    font-family: Kanit;
+    display: flex;
+    flex-direction: column;
+}
+.footer-widget p {
+    color: #ffff;
+    padding-top: 10px;
+}
+.footer-widget a {
+    text-decoration: none; 
+}
+.links {
+    color: #ffff;
+    font-family: Kanit;
+}
+.footer-top {
+    background-color: #212121;
+    padding: 10px;
+}
+.footer-top p {
+    color: rgb(255, 255, 255);
+    font-family: Kanit;
+    margin: 0px 0px 0px 90px;
+}
